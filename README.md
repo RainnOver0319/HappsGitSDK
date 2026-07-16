@@ -7,7 +7,7 @@
 
 请访问：[HappsStore互联中心](https://store.mlykj.com/open/)
 
-![详情图](https://store.mlykj.com/open/2f70e702fa23d4532152b85a0524d950.png)
+![详情图](https://i-blog.csdnimg.cn/direct/25fc73239c4c44f2b46844e1e8470fe9.png)
 
 # **2.引入SDK**
 下载本仓库中的aar文件进行导入
