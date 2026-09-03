@@ -1,11 +1,11 @@
-# HappsStoreSDK
-本仓库为接入HappsStore互联示例
+# HappsGitSDK
+本仓库为接入HappsGit互联示例
 <br>官方QQ群：1036365995
 
 # **1.添加应用**
-在接入SDK前您需要先在HappsStore互联平台内添加应用，来获取AppID 和 AppKey
+在接入SDK前您需要先在HappsGit互联平台内添加应用，来获取AppID 和 AppKey
 
-请访问：[HappsStore互联中心](https://store.mlykj.com/open/)
+请访问：[HappsGit互联中心](https://store.mlykj.com/open/)
 
 ![详情图](https://i-blog.csdnimg.cn/direct/25fc73239c4c44f2b46844e1e8470fe9.png)
 
@@ -15,7 +15,7 @@
 <br>
 ```Java
 implementation("com.google.code.gson:gson:2.10.1")//解析json 必须
-implementation(files("libs/HappsStoreSDK-1.0.aar"))//SDK主体 必须
+implementation(files("libs/HappsGitSDK-release.aar"))//SDK主体 必须
 ```
 
 # **3.配置AndroidManifest.xml**
