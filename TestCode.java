@@ -1,22 +1,25 @@
-package com.happsstore.cs;
+package xxxxx;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-import com.happsstore.sdk.SDK;
+
+import com.happsgit.sdk.SDK;//Happsgit SDK
 
 public class TextCode extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         //初始化SDK
         SDK.init("app_xxx", "key_xxx");
-        //发起登录
-        SDK.launchLogin(this);
+        Button loginButton = findViewById(R.id.login_button);
+
+        loginButton.setOnClickListener(v -> SDK.launchLogin(this));
     }
 
     @Override
