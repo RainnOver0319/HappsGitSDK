@@ -58,7 +58,7 @@ SDK.init("app_xxx", "key_xxx");
 在 需要拉起登录的页面代码中进行配置
 <br>
 ```Java
-import com.happsstore.sdk.SDK;
+import com.happsgit.sdk.SDK;
 
 SDK.launchLogin(this); //activity
 SDK.launchLogin(requireActivity());//fragment
